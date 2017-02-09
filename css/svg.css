@@ -1,0 +1,245 @@
+.wvf-axis text {
+	font: 10px sans-serif;
+}
+
+.wvf-axis path {
+	stroke-dasharray:5,5;
+	fill: none;
+	stroke: #666;
+	shape-rendering: crispEdges;
+}
+
+.wvf-axis line {
+
+}
+
+/* ---- Node Styles ---- */
+
+.wvf-node {
+	stroke: grey;
+	stroke-width: .75;
+}
+
+.wvf-node.selected {
+	opacity: 1;
+	stroke-width: 1.5;
+}
+
+.wvf-node.deselected {
+	stroke-width: .2;
+	stroke: #444 !important;
+	cursor: pointer;
+	opacity: .2;
+}
+
+.wvf-node focused {
+	stroke-width:3;
+}
+
+/* ---- Labels ----- */
+
+.wvf-label {
+	font-weight: bolder;
+}
+.wvf-label selected {
+
+}
+
+.wvf-label deselected {
+
+}
+
+.wvf-label focused {
+
+}
+
+/* ---- Edge Styles ---- */
+
+.wvf-edge {
+	stroke: grey !important;
+	cursor: pointer;
+	stroke-width: .75;
+	fill: none;
+}
+
+.wvf-edge.selected {
+/*	stroke-width: 1.5;
+	opacity: 1;
+*/
+}
+
+.wvf-edge.deselected {
+	/*opacity: 0;*/
+} 
+
+.wvf-edge focused {
+
+
+}
+
+/* --- Rectangle Styles ---- */
+
+.wvf-rect selected {
+
+}
+
+.wvf-rect deselected {
+
+}
+
+.wvf-rect focused {
+
+}
+
+/* --- Path Styles  ----- */
+.wvf-path selected {
+
+}
+
+.wvf-path deselected {
+
+}
+
+.wvf-path focused {
+
+}
+
+
+
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+    padding: 6px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+
+/* Style northward tooltips differently */
+
+.d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+}
+
+
+.n {
+    stroke-width: .2;
+    stroke: #444 !important;
+    cursor: pointer;
+    fill: lightgrey;
+}
+
+circle.highlighted {
+    stroke-width: 2;
+}
+
+circle.selected {
+    stroke-width: 3;
+}
+
+
+/*path {
+    fill:lightgrey;
+}*/
+
+
+/*Edges (path)*/
+
+.e {
+    stroke: #666 !important;
+    cursor: pointer;
+    stroke-width: 1;
+}
+
+
+/*Bars (rect)*/
+
+.b {
+    cursor: pointer;
+    stroke: #444;
+    stroke-width: 1;
+    fill: lightgrey;
+}
+
+rect.highlighted {
+    stroke-width: 2;
+}
+
+rect.selected {
+    stroke-width: 3;
+}
+
+
+/*Labels (text)*/
+
+.l {
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+/*Smaller labels (text)*/
+
+.axis text,
+.l2 {
+    stroke-width: .035em;
+    cursor: pointer;
+    color: #000;
+    font: 15px sans-serif;
+}
+
+
+.axis line,
+.axis path {
+    /*stroke-dasharray: 5, 5;*/
+    fill: none;
+    stroke: #666;
+}
+.axis .minor line,
+.axis .minor path {
+  stroke: #666;
+  stroke-dasharray: 5, 5;
+}
+
+.icon {
+    right: 0px;
+}
+
+.LabHourGroup path {
+    /*fill: orange;*/
+}
+
+/* UI Loading Icon */
+
+.ui-loader {
+    display: none;
+    margin: 0px;
+}
+
+
+.selected {
+    opacity: 1 !important;
+}
+
+.deselected {
+    opacity: .125;
+}
+
+
+/*Nodes (circle)*/

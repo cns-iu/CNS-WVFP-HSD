@@ -1,0 +1,7 @@
+{
+    "data": {
+        "HeatMap": { "visualization": "HeatMap", "alias": "visName", "commit": "" },
+        "RadialTest": { "visualization": "RadialTest", "alias": "visName", "commit": "" },
+        "HVBarChart": { "visualization": "HVBarChart", "alias": "barGraph01", "commit": "" }
+    }
+}

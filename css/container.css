@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+}
+
+body {
+	font-family: "open sans";
+	font-size: 15px;
+}
+
+.large {
+	width: calc(100% - 15px);
+}
+
+.medium {
+/*	width: calc(70% - 50px);*/
+width: 1100px;
+}
+
+.small {
+	width: calc(50% - 15px);
+}
+
+.box {
+	border: 1px solid #ccc;
+	margin: 15px 0px;
+}
+
+.box-header h3 {
+	font-family: 'open sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	background-color: rgb(39, 38, 38);
+	color: #fff;
+	padding: 5px 10px;
+	margin: 0px;
+}
+
+.box-content {
+	overflow: hidden;
+}
+
